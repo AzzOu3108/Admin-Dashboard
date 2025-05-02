@@ -1,7 +1,6 @@
 import { BarChart2, DollarSign, Menu, Settings, ShoppingBag, ShoppingCart, TrendingUp, Users } from 'lucide-react';
 import React, { useState } from 'react'
 import { AnimatePresence, color, motion } from 'framer-motion';
-import { link } from 'framer-motion/client';
 import { Link } from 'react-router-dom';
 
 const SIDEBAR_ITEMS = [
