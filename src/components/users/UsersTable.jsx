@@ -107,8 +107,8 @@ const UsersTable = () => {
                   </span>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-                  <button className="text-indigo-400 hover:text-indigo-300 mr-2">Edit</button>
-                  <button className="text-red-400 hover:text-red-300">Delete</button>
+                  <button className="text-indigo-400 hover:text-indigo-300 mr-2 cursor-pointer">Edit</button>
+                  <button className="text-red-400 hover:text-red-300 cursor-pointer">Delete</button>
                 </td>
               </motion.tr>
             ))}
